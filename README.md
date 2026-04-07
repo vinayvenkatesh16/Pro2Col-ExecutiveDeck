@@ -1,1 +1,212 @@
 # Pro2Col-ExecutiveDeck
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pro2col Executive Strategy | 2026 Roadmap</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700;800&display=swap');
+        body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: #f8fafc; scroll-behavior: smooth; }
+        .metric-card { background: rgba(255, 255, 255, 0.03); backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.1); transition: all 0.3s ease; }
+        .metric-card:hover { border-color: #22c55e; background: rgba(255, 255, 255, 0.05); }
+        .roadmap-line { position: absolute; left: 50%; width: 2px; height: 100%; background: #e2e8f0; transform: translateX(-50%); z-index: 0; }
+        .reward-gradient { background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%); }
+    </style>
+</head>
+<body class="text-slate-900">
+
+    <nav class="bg-white/80 backdrop-blur-md border-b border-slate-200 px-12 py-4 flex justify-between items-center sticky top-0 z-50">
+        <div class="flex items-center gap-3">
+            <div class="bg-green-600 p-2 rounded-xl shadow-lg shadow-green-200">
+                <i class="fas fa-layer-group text-white text-lg"></i>
+            </div>
+            <span class="text-2xl font-extrabold tracking-tighter text-slate-900">PRO2<span class="text-green-600">COL</span></span>
+        </div>
+        <div class="hidden lg:flex gap-10 font-bold text-xs uppercase tracking-widest text-slate-500">
+            <a href="#metrics" class="hover:text-green-600 transition-colors">Success Metrics</a>
+            <a href="#roadmap" class="hover:text-green-600 transition-colors">Roadmap</a>
+            <a href="#risks" class="hover:text-green-600 transition-colors">Risk Matrix</a>
+            <a href="#rewards" class="hover:text-green-600 transition-colors">Strategic Upside</a>
+        </div>
+        <div class="flex items-center gap-4">
+            <span class="bg-green-100 text-green-700 px-3 py-1 rounded-full text-[10px] font-black uppercase">Executive View</span>
+        </div>
+    </nav>
+
+    <section id="metrics" class="bg-[#0b1120] py-24 px-12 relative overflow-hidden">
+        <div class="absolute top-0 right-0 w-96 h-96 bg-green-500/10 blur-[120px] rounded-full"></div>
+        <div class="max-w-7xl mx-auto relative z-10 text-center mb-16">
+            <h2 class="text-green-500 font-black tracking-[0.3em] uppercase text-xs mb-4">The North Star</h2>
+            <h1 class="text-white text-5xl font-extrabold mb-6">Defining Success for Pro2col</h1>
+            <p class="text-slate-400 text-lg max-w-2xl mx-auto">Weaponizing data to bridge the gap between nutritional products and measurable health outcomes.</p>
+        </div>
+
+        <div class="max-w-7xl mx-auto grid md:grid-cols-3 gap-8">
+            <div class="metric-card p-10 rounded-[32px] text-center border-l-4 border-l-green-500">
+                <p class="text-slate-500 font-bold uppercase text-[10px] tracking-widest mb-6">Daily Engagement</p>
+                <div class="text-7xl font-black text-white mb-4 tracking-tighter">+30%</div>
+                <h3 class="text-green-400 font-bold text-xl mb-4">DAU Growth</h3>
+                <p class="text-slate-400 text-sm leading-relaxed">Driven by high-frequency Pro2Score check-ins and personalized daily habit streaks.</p>
+            </div>
+            <div class="metric-card p-10 rounded-[32px] text-center border-l-4 border-l-blue-500">
+                <p class="text-slate-500 font-bold uppercase text-[10px] tracking-widest mb-6">LTV Retention</p>
+                <div class="text-7xl font-black text-white mb-4 tracking-tighter">-15%</div>
+                <h3 class="text-blue-400 font-bold text-xl mb-4">Customer Churn</h3>
+                <p class="text-slate-400 text-sm leading-relaxed">Reducing drop-off through Bioniq-validated bio-marker feedback loops.</p>
+            </div>
+            <div class="metric-card p-10 rounded-[32px] text-center border-l-4 border-l-purple-500">
+                <p class="text-slate-500 font-bold uppercase text-[10px] tracking-widest mb-6">System Adoption</p>
+                <div class="text-7xl font-black text-white mb-4 tracking-tighter">80%</div>
+                <h3 class="text-purple-400 font-bold text-xl mb-4">Distributor Active</h3>
+                <p class="text-slate-400 text-sm leading-relaxed">Top-tier distributors adopting the digital dashboard as their core coaching tool.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="roadmap" class="py-24 px-12 bg-white">
+        <div class="max-w-7xl mx-auto mb-20 text-center">
+            <h2 class="text-slate-400 font-bold tracking-[0.3em] uppercase text-xs mb-4">Operational Timeline</h2>
+            <h1 class="text-slate-900 text-4xl font-extrabold">90-Day Execution Plan</h1>
+        </div>
+
+        <div class="max-w-5xl mx-auto relative">
+            <div class="roadmap-line hidden md:block"></div>
+            
+            <div class="relative flex flex-col md:flex-row items-center mb-16 group">
+                <div class="flex-1 md:text-right md:pr-16 mb-4 md:mb-0">
+                    <h3 class="text-2xl font-black text-slate-800">Days 1-30: Audit & Align</h3>
+                    <p class="text-slate-500 mt-2">Deep-dive into Beta 2.0 performance and technical debt management.</p>
+                </div>
+                <div class="w-12 h-12 bg-green-600 rounded-full border-4 border-white shadow-xl relative z-10 flex items-center justify-center text-white font-bold">1</div>
+                <div class="flex-1 md:pl-16 mt-4 md:mt-0">
+                    <div class="bg-slate-50 p-4 rounded-xl border border-slate-100 text-sm font-semibold text-slate-600">
+                        <i class="fas fa-check text-green-500 mr-2"></i> Map Bioniq Tech Integration<br>
+                        <i class="fas fa-check text-green-500 mr-2"></i> Distributor UI Friction Audit
+                    </div>
+                </div>
+            </div>
+
+            <div class="relative flex flex-col md:flex-row items-center mb-16">
+                <div class="flex-1 md:text-right md:pr-16 order-2 md:order-1 mt-4 md:mt-0">
+                    <div class="bg-slate-50 p-4 rounded-xl border border-slate-100 text-sm font-semibold text-slate-600">
+                        <i class="fas fa-sync text-yellow-500 mr-2"></i> EMEA (2026) Localizations<br>
+                        <i class="fas fa-sync text-yellow-500 mr-2"></i> Pro2Score Algorithm v2
+                    </div>
+                </div>
+                <div class="w-12 h-12 bg-yellow-400 rounded-full border-4 border-white shadow-xl relative z-10 flex items-center justify-center text-white font-bold order-1 md:order-2">2</div>
+                <div class="flex-1 md:pl-16 order-3 mb-4 md:mb-0">
+                    <h3 class="text-2xl font-black text-slate-800">Days 31-60: Optimize</h3>
+                    <p class="text-slate-500 mt-2">Scaling logic to global markets and refining user psychology.</p>
+                </div>
+            </div>
+
+            <div class="relative flex flex-col md:flex-row items-center mb-16">
+                <div class="flex-1 md:text-right md:pr-16 mb-4 md:mb-0">
+                    <h3 class="text-2xl font-black text-slate-800">Days 61-90: Scale</h3>
+                    <p class="text-slate-500 mt-2">Leveraging massive partnerships and personalized product hooks.</p>
+                </div>
+                <div class="w-12 h-12 bg-blue-600 rounded-full border-4 border-white shadow-xl relative z-10 flex items-center justify-center text-white font-bold">3</div>
+                <div class="flex-1 md:pl-16 mt-4 md:mt-0">
+                    <div class="bg-slate-50 p-4 rounded-xl border border-slate-100 text-sm font-semibold text-slate-600">
+                        <i class="fas fa-rocket text-blue-500 mr-2"></i> Personalized Pack Launch<br>
+                        <i class="fas fa-star text-blue-500 mr-2"></i> CR7 Partnership Sync
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="risks" class="py-24 px-12 bg-slate-50">
+        <div class="max-w-7xl mx-auto flex flex-col lg:flex-row gap-16 items-center">
+            <div class="lg:w-1/3">
+                <h2 class="text-red-500 font-black tracking-[0.3em] uppercase text-xs mb-4">Risk Management</h2>
+                <h1 class="text-4xl font-extrabold mb-6 leading-tight">Navigating the Path to Scale</h1>
+                <p class="text-slate-500 mb-8 leading-relaxed">Every ambitious product has trade-offs. We prioritize high-impact rewards while mitigating operational and technical risks.</p>
+                <div class="flex gap-4">
+                    <div class="flex flex-col items-center p-4 bg-white rounded-2xl shadow-sm border border-slate-200 w-1/2">
+                        <span class="text-2xl mb-1">🔥</span>
+                        <span class="text-[10px] font-bold text-slate-400 uppercase">High Intensity</span>
+                    </div>
+                    <div class="flex flex-col items-center p-4 bg-white rounded-2xl shadow-sm border border-slate-200 w-1/2">
+                        <span class="text-2xl mb-1">🛡️</span>
+                        <span class="text-[10px] font-bold text-slate-400 uppercase">Strategic Shield</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="lg:w-2/3 grid grid-cols-2 gap-4">
+                <div class="bg-red-50 p-8 rounded-[2rem] border-2 border-red-100">
+                    <i class="fas fa-biohazard text-red-500 mb-4 text-xl"></i>
+                    <h4 class="font-bold text-slate-900 mb-2 leading-tight">Bio-Marker<br>Integration</h4>
+                    <p class="text-xs text-red-700 leading-relaxed">High technical complexity & legal risk regarding blood-data handling.</p>
+                </div>
+                <div class="bg-green-50 p-8 rounded-[2rem] border-2 border-green-100">
+                    <i class="fas fa-chart-line text-green-500 mb-4 text-xl"></i>
+                    <h4 class="font-bold text-slate-900 mb-2 leading-tight">Distributor<br>Dashboards</h4>
+                    <p class="text-xs text-green-700 leading-relaxed">Lowest risk / Highest upside. Drives immediate coach adoption & retention.</p>
+                </div>
+                <div class="bg-white p-8 rounded-[2rem] border-2 border-dashed border-slate-200">
+                    <i class="fas fa-camera text-slate-400 mb-4 text-xl"></i>
+                    <h4 class="font-bold text-slate-400 mb-2 leading-tight">AI Camera<br>Perfection</h4>
+                    <p class="text-xs text-slate-400 leading-relaxed">R&D "sinkhole." We focus on behavioral nudges, not 100% pixel accuracy.</p>
+                </div>
+                <div class="bg-slate-200 p-8 rounded-[2rem]">
+                    <i class="fas fa-shield-check text-slate-600 mb-4 text-xl"></i>
+                    <h4 class="font-bold text-slate-900 mb-2 leading-tight">Regulatory<br>Lockstep</h4>
+                    <p class="text-xs text-slate-600 leading-relaxed">The necessary foundation for EMEA scale. Operational must-have.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="rewards" class="reward-gradient py-24 px-12 text-white">
+        <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-20 items-center">
+            <div>
+                <h2 class="text-green-500 font-black tracking-[0.3em] uppercase text-xs mb-4">Strategic Upside</h2>
+                <h1 class="text-5xl font-extrabold mb-10 tracking-tight">The Reward: A Global Digital Moat</h1>
+                
+                <div class="space-y-10">
+                    <div class="flex gap-6 items-start">
+                        <div class="bg-green-600 p-4 rounded-2xl shadow-lg shadow-green-900/50">
+                            <i class="fas fa-gem"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-xl font-bold mb-2">Category Re-Definition</h4>
+                            <p class="text-slate-400 text-sm leading-relaxed">Moving from a product seller to a health-tech platform. This shift significantly increases Herbalife's valuation and relevance to Gen Z/Alpha.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-6 items-start">
+                        <div class="bg-blue-600 p-4 rounded-2xl shadow-lg shadow-blue-900/50">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-xl font-bold mb-2">Unrivaled Switching Costs</h4>
+                            <p class="text-slate-400 text-sm leading-relaxed">A customer with 6 months of Pro2Score data and blood history is 10x less likely to leave for a generic competitor.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white/5 border border-white/10 p-12 rounded-[3rem] backdrop-blur-xl relative">
+                <i class="fas fa-quote-left text-green-500 text-4xl mb-6 opacity-30"></i>
+                <p class="text-2xl font-medium leading-relaxed text-slate-200 mb-8 italic">"Pro2col isn't just an app—it's the first wellness operating system that bridges the gap between biological potential and daily behavior."</p>
+                <div class="flex items-center gap-4">
+                    <div class="w-12 h-12 bg-green-500 rounded-full flex items-center justify-center font-bold">PM</div>
+                    <div>
+                        <p class="font-bold text-white uppercase text-xs tracking-widest">Director of Product</p>
+                        <p class="text-slate-500 text-xs italic">Strategy 2026 Initiative</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-12 bg-[#0b1120] text-center border-t border-white/5">
+        <p class="text-slate-500 text-[10px] font-bold uppercase tracking-[0.5em]">Internal Executive Review // Pro2col OS v2.0 // Strictly Confidential</p>
+    </footer>
+
+</body>
+</html>
